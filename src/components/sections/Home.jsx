@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative "
+      className="min-h-screen flex items-center justify-center relative  bg-gray-300 dark:bg-gray-900"
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
@@ -12,7 +12,7 @@ export const Home = () => {
             Hi, I'm Hasan Banna
           </h1>
 
-          <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
+          <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto text-gray-500">
             I design and build modern web applications with a focus on
             performance and user experience. Passionate about creating
             innovative solutions that make a difference.

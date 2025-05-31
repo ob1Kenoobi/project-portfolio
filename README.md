@@ -4,6 +4,7 @@
 - **Responsive Layout:** Fully responsive across desktop, tablet, and mobile devices.
 - **Interactive Components:** Animated sections and a mobile-friendly hamburger menu with smooth transitions.
 - **Optimized Performance:** Fast development build using Vite with TailwindCSS for efficient styling.
+- **Dark Mode** Dark mode button added.
 
 ## Technologies
 

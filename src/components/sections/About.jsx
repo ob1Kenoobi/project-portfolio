@@ -18,7 +18,7 @@ export const About = () => {
 
           <div className="flex items-center justify-center mb-12">
             <div className="flex-grow h-px bg-gray-400"></div>
-            <h2 className="mx-4 text-3xl font-semibold text-center">
+            <h2 className="text-gray-700 mx-4 text-3xl font-semibold text-center">
               About Me
             </h2>
             <div className="flex-grow h-px bg-gray-400"></div>
@@ -27,7 +27,7 @@ export const About = () => {
           {/* Content Grid */}
           <div className="grid md:grid-cols-2 gap-10 items-start">
             {/* Text */}
-            <div className="space-y-5 text-gray-700 dark:text-gray-300 leading-relaxed">
+            <div className="space-y-5 text-gray-500  bg-gray-100 dark:bg-gray-900 leading-relaxed">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Praesent sit amet vestibulum felis. Vivamus facilisis ligula id
@@ -54,7 +54,10 @@ export const About = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> Frontend</h3>
+              <h3 className="text-xl font-bold mb-4 text-gray-700">
+                {" "}
+                Frontend
+              </h3>
               <div className="flex flex-wrap gap-2">
                 {frontendSkills.map((tech, key) => (
                   <span
@@ -70,7 +73,7 @@ export const About = () => {
             </div>
 
             <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> Backend</h3>
+              <h3 className="text-xl font-bold mb-4 text-gray-700"> Backend</h3>
               <div className="flex flex-wrap gap-2">
                 {backendSkills.map((tech, key) => (
                   <span
@@ -88,8 +91,11 @@ export const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <h3 className="text-xl font-bold mb-4 text-gray-700">
+                {" "}
+                🏫 Education{" "}
+              </h3>
+              <ul className="list-disc list-inside text-gray-500 space-y-2">
                 <li>
                   <strong> B.S. in Computer Science </strong> - XYZ University
                   (2016-2020)
@@ -101,8 +107,11 @@ export const About = () => {
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
-              <div className="space-y-4 text-gray-300">
+              <h3 className="text-xl font-bold mb-4 text-gray-700">
+                {" "}
+                💼 Work Experience{" "}
+              </h3>
+              <div className="space-y-4 text-gray-500">
                 <div>
                   <h4 className="font-semibold">
                     {" "}

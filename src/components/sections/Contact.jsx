@@ -11,11 +11,13 @@ export const Contact = () => {
         <div className="w-full max-w-xl">
           <div className="flex items-center justify-center mb-12">
             <div className="flex-grow h-px bg-gray-400"></div>
-            <h2 className="mx-4 text-5xl font-semibold text-center">Contact</h2>
+            <h2 className="text-gray-600 mx-4 text-5xl font-semibold text-center">
+              Contact
+            </h2>
             <div className="flex-grow h-px bg-gray-400"></div>
           </div>
 
-          <p className="text-gray-600 mb-6 text-2xl space-x-2">
+          <p className="text-gray-700 mb-6 text-2xl space-x-2">
             I am currently seeking employment, and I would appreciate it if you
             could contact me with any available job opportunities.
           </p>
@@ -24,7 +26,7 @@ export const Contact = () => {
             Write Message
           </button>
 
-          <div className="flex justify-center gap-6 mt-10 text-gray-600 text-2xl">
+          <div className="flex justify-center gap-6 mt-10 text-gray-700 text-2xl">
             <a href="mailto:your@email.com" aria-label="Email">
               <FaEnvelope />
             </a>

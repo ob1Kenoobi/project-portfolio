@@ -16,7 +16,9 @@ export const Footer = () => {
           <FaLinkedin size={24} />
         </a>
       </div>
-      <p className="text-sm">Hasan Banna - {new Date().getFullYear()}</p>
+      <p className="text-sm text-gray-700">
+        Hasan Banna - {new Date().getFullYear()}
+      </p>
     </footer>
   );
 };
